@@ -1,0 +1,11 @@
+version: 0.1
+phases:
+  pre_build:
+    commands:
+      - composer install
+  build:
+    commands:
+      - echo "[+] Unit TEst...."
+  post_build:
+    commands:
+      - echo "SAM packaging completed on `date`"
