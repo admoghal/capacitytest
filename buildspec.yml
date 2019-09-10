@@ -5,10 +5,10 @@ phases:
         php: 7.3
   pre_build:
     commands:
-      - composer install
+      - echo "[+] Pre BUild...."
   build:
     commands:
       - echo "[+] Unit TEst...."
   post_build:
     commands:
-      - echo "SAM packaging completed on `date`"
+      - echo "post_build"
