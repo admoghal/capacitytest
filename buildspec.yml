@@ -12,5 +12,5 @@ phases:
   post_build:
     commands:
       - printf 'TESTCODE' > imagedefinitions.json
-  artifacts:
+artifacts:
     files: imagedefinitions.json
